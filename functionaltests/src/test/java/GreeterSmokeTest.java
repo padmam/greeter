@@ -14,6 +14,6 @@ public class GreeterSmokeTest {
         HtmlUnitDriver driver = new HtmlUnitDriver();
         driver.get("http://localhost:4567/hello");
         driver.navigate();
-        assertThat(driver.getTitle(), is("Greeter"));
+        assertThat(driver.getTitle(), is("Greeter Application"));
     }
 }
