@@ -8,6 +8,5 @@ public class GreeterTest {
     @org.junit.Test
     public void testGreeting() throws Exception {
         assertThat(new Greeter().greeting(), is("Hello world"));
-
     }
 }
