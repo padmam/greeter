@@ -11,5 +11,6 @@ public class Main {
         Map map = new HashMap();
         map.put("name", "GoCD");
         get("/hello", (rq, rs) -> new ModelAndView(map, "hello"), new ThymeleafTemplateEngine());
+        get("/ok", (rq, rs) -> new ModelAndView(map, "ok"), new ThymeleafTemplateEngine());
     }
 }

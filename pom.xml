@@ -12,6 +12,7 @@
         <module>acceptance</module>
         <module>service</module>
         <module>smoke</module>
+        <module>regression</module>
     </modules>
     <name>Greeter Application</name>
     <dependencies>
