@@ -2,6 +2,6 @@
 for i in {1..5}
 do
    echo "here"
-   sleep 30s
+   sleep 50s
    echo "Welcome $i times"
 done
